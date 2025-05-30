@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;;
+}
+
+body{
+    padding-top: 6px;
+    padding-left: 6px;
+}
+
+.nebula-canvas {
+    display: flex;
+    flex-direction: column;
+    height: 1190px;
+    background-image: url("./img/IMAGE (2).png");
+    padding-top: 36px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.cosmic-navigator {
+    display: flex;
+    flex-direction: row;
+    gap: 1110px;
+}
+
+.stellar-links, .quantum-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.stellar-links > p, .quantum-actions > p {
+    color: white;
+    font-size: 16px;
+}
+
+.galactic-hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    padding-right: 1120px;
+    gap: 81px;
+}
+
+.galactic-hero > p {
+    color: white;
+    font-size: 95px;
+}
+
+.galactic-hero > button {
+    width: 320px;
+    height: 59px;
+    border: none;
+    border-radius: 7px;
+    background-color: #1F1E1E;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.galactic-hero > button:hover {
+    background: #333;
+}
+
+.cookie-dimension {
+    display: flex;
+    flex-direction: column;
+    padding-top: 392px;
+    padding-left: 1150px;
+    gap: 30px;
+}
+
+.cookie-title {
+    font-size: 18px;
+    color: #3C3C3C;
+}
+
+.cookie-message {
+    font-size: 14px;
+    color: #3C3C3C;
+}
+
+.cookie-portal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 142px;
+}
+
+.cookie-tweak {
+    font-size: 13px;
+    color: #1F1E1E;
+    cursor: pointer;
+}
+
+.cookie-accept {
+    color: white;
+    cursor: pointer;
+}
+
+.feature-galaxy {
+    display: flex;
+    flex-direction: row;
+    padding-top: 94px;
+    gap: 207px;
+    justify-content: center;
+}
+
+.cosmic-feature {
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+}
+
+.cosmic-feature > p {
+    font-size: 29px;
+    color: #3C3C3C;
+}
+
+.cosmic-feature > div {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+.cosmic-feature > div > p {
+    font-size: 14px;
+    color: #3C3C3C;
+}
+
+.color-universe {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    align-items: center;
+    gap: 122px;
+    padding-bottom: 80px;
+}
+
+.color-universe > p {
+    font-size: 200px;
+    color: #1F1E1E;
+}
+
+.quantum-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+}
+
+.chroma-row {
+    display: flex;
+    flex-direction: row;
+    gap: 101px;
+}
+
+.paint-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.paint-card > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paint-card > div > p {
+    font-size: 14px;
+    color: #3C3C3C;
+}
+
+.color-universe > button {
+    width: 222.4px;
+    height: 59px;
+    border-radius: 7px;
+    border: none;
+    background-color: #1F1E1E;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.color-universe > button:hover {
+    background: #333;
+}
+
+.mission-wormhole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    padding-bottom: 154px;
+}
+
+.subspace-title {
+    font-size: 14px;
+    color: #3C3C3C;
+}
+
+.wormhole-message {
+    font-size: 61px;
+    color: #1F1E1E;
+    text-align: center;
+}
+
+.benefit-dimension {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    align-items: center;
+}
+
+.space-divider {
+    width: 1760px;
+}
+
+.benefit-portal {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.purify-chamber {
+    display: flex;
+    flex-direction: column;
+    width: 873px;
+    height: 873px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4EDE6;
+    border-radius: 13px;
+    gap: 251px;
+}
+
+.quantum-heading {
+    font-size: 83px;
+    color: #425E44;
+    text-align: center;
+}
+
+.subatomic-caption {
+    font-size: 14px;
+    color: #425E44;
+}
+
+.mega-number {
+    font-size: 307px;
+    color: #1F1E1E;
+}
+
+.anti-matter-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.anti-matter-list > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.anti-matter-list > div > p {
+    font-size: 34px;
+    color: #1F1E1E;
+}
+
+.anti-matter-list > button {
+    width: 203px;
+    height: 59px;
+    background-color: #1F1E1E;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.anti-matter-list > button:hover {
+    background: #333;
+}
+
+.sample-reality {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 13px;
+}
+
+.sticker-void {
+    display: flex;
+    flex-direction: column;
+    width: 873.6px;
+    height: 873.6px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2DFDA;
+    gap: 45px;
+}
+
+.sticker-void > p {
+    text-align: center;
+    font-size: 74px;
+    color: #1F1E1E;
+}
+
+.sticker-void > button {
+    width: 238px;
+    height: 59px;
+    background-color: #1F1E1E;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.sticker-void > button:hover {
+    background: #333;
+}
+
+.gallery-multiverse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 376px;
+    gap: 13px;
+    padding-bottom: 105px;
+}
+
+.image-singularity {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.image-singularity > div {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.inspiration-core {
+    display: flex;
+    flex-direction: column;
+    width: 873.6px;
+    height: 873.6px;
+    align-items: center;
+    justify-content: center;
+    background-color: #C6BC8A;
+    border-radius: 7px;
+    gap: 260px;
+}
+
+.galactic-heading {
+    font-size: 83px;
+    color: #425E44;
+    text-align: center;
+}
+
+.social-handle {
+    font-size: 32px;
+    color: #425E44;
+}
+
+.inspiration-core > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.quantum-text {
+    font-size: 14px;
+    color: #425E44;
+}
+
+.contact-event-horizon {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    gap: 80px;
+}
+
+.contact-rift {
+    width: 1760px;
+    background-color: #E0E0E0;
+}
+
+.communication-portal {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.form-wormhole {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding-right: 300px;
+}
+
+.subscription-vortex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-singularity {
+    font-size: 61px;
+    color: #1F1E1E;
+    border: none;
+}
+
+.subscription-vortex input[type="email"] {
+    width: 427px;
+    height: 59px;
+    border-radius: 7px;
+    border: 1px solid #E0E0E0;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.subscription-vortex button {
+    width: 180px;
+    height: 59px;
+    border-radius: 7px;
+    border: none;
+    background-color: #1F1E1E;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.subscription-vortex button:hover {
+    background: #333;
+}
+
+.form-quantum {
+    font-size: 14px;
+    color: #425E44;
+}
+
+.link-matrix {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #E0E0E0;
+    padding-left: 78px;
+    gap: 185px;
+}
+
+.hyperlinks {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.link-cluster {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link-cluster > div {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.social-wormhole {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+}
+
+.cosmic-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 52px;
+    padding-bottom: 90px;
+}
+
+.cosmic-footer > p {
+    font-size: 390px;
+    letter-spacing: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+.footer-event-horizon {
+    display: flex;
+    flex-direction: row;
+    gap: 800px;
+}
+
+.rating-singularity {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+}
+
+.footer-wormhole {
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+    align-items: center;
+}
+
+.footer-wormhole > img {
+    object-fit: contain;
+}
