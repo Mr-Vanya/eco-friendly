@@ -9,7 +9,7 @@ body{
     padding-left: 6px;
 }
 
-.nebula-canvas {
+.piska {
     display: flex;
     flex-direction: column;
     height: 1190px;
@@ -19,19 +19,19 @@ body{
     align-items: center;
 }
 
-.cosmic-navigator {
+.navigator {
     display: flex;
     flex-direction: row;
     gap: 1110px;
 }
 
-.stellar-links, .quantum-actions {
+.ssilka, .papa {
     display: flex;
     flex-direction: row;
     gap: 25px;
 }
 
-.stellar-links > p, .quantum-actions > p {
+.ssilka > p, .papa > p {
     color: white;
     font-size: 16px;
 }
@@ -44,12 +44,12 @@ body{
     gap: 81px;
 }
 
-.galactic-hero > p {
+.hero > p {
     color: white;
     font-size: 95px;
 }
 
-.galactic-hero > button {
+.hero > button {
     width: 320px;
     height: 59px;
     border: none;
@@ -60,11 +60,11 @@ body{
     cursor: pointer;
     transition: background 0.2s;
 }
-.galactic-hero > button:hover {
+.hero > button:hover {
     background: #333;
 }
 
-.cookie-dimension {
+.dimension {
     display: flex;
     flex-direction: column;
     padding-top: 392px;
@@ -72,35 +72,35 @@ body{
     gap: 30px;
 }
 
-.cookie-title {
+.title {
     font-size: 18px;
     color: #3C3C3C;
 }
 
-.cookie-message {
+.message {
     font-size: 14px;
     color: #3C3C3C;
 }
 
-.cookie-portal {
+.portal {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 142px;
 }
 
-.cookie-tweak {
+.tweak {
     font-size: 13px;
     color: #1F1E1E;
     cursor: pointer;
 }
 
-.cookie-accept {
+.accept {
     color: white;
     cursor: pointer;
 }
 
-.feature-galaxy {
+.galaxy {
     display: flex;
     flex-direction: row;
     padding-top: 94px;
@@ -108,29 +108,29 @@ body{
     justify-content: center;
 }
 
-.cosmic-feature {
+.cosmic {
     display: flex;
     flex-direction: row;
     gap: 27px;
 }
 
-.cosmic-feature > p {
+.cosmic > p {
     font-size: 29px;
     color: #3C3C3C;
 }
 
-.cosmic-feature > div {
+.cosmic > div {
     display: flex;
     flex-direction: column;
     margin: 0%;
 }
 
-.cosmic-feature > div > p {
+.cosmic > div > p {
     font-size: 14px;
     color: #3C3C3C;
 }
 
-.color-universe {
+.color {
     display: flex;
     flex-direction: column;
     padding-top: 64px;
@@ -144,37 +144,37 @@ body{
     color: #1F1E1E;
 }
 
-.quantum-grid {
+.quantum {
     display: flex;
     flex-direction: column;
     gap: 59px;
 }
 
-.chroma-row {
+.chroma {
     display: flex;
     flex-direction: row;
     gap: 101px;
 }
 
-.paint-card {
+.paint {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
 }
 
-.paint-card > div {
+.paint > div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.paint-card > div > p {
+.paint > div > p {
     font-size: 14px;
     color: #3C3C3C;
 }
 
-.color-universe > button {
+.color > button {
     width: 222.4px;
     height: 59px;
     border-radius: 7px;
@@ -185,11 +185,11 @@ body{
     cursor: pointer;
     transition: background 0.2s;
 }
-.color-universe > button:hover {
+.color > button:hover {
     background: #333;
 }
 
-.mission-wormhole {
+.mission {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,18 +197,18 @@ body{
     padding-bottom: 154px;
 }
 
-.subspace-title {
+.subspace {
     font-size: 14px;
     color: #3C3C3C;
 }
 
-.wormhole-message {
+.wormhole {
     font-size: 61px;
     color: #1F1E1E;
     text-align: center;
 }
 
-.benefit-dimension {
+.dimension {
     display: flex;
     flex-direction: column;
     gap: 53px;
@@ -219,13 +219,13 @@ body{
     width: 1760px;
 }
 
-.benefit-portal {
+.portal {
     display: flex;
     flex-direction: row;
     gap: 13px;
 }
 
-.purify-chamber {
+.chamber {
     display: flex;
     flex-direction: column;
     width: 873px;
@@ -237,42 +237,42 @@ body{
     gap: 251px;
 }
 
-.quantum-heading {
+.heading {
     font-size: 83px;
     color: #425E44;
     text-align: center;
 }
 
-.subatomic-caption {
+.caption {
     font-size: 14px;
     color: #425E44;
 }
 
-.mega-number {
+.number {
     font-size: 307px;
     color: #1F1E1E;
 }
 
-.anti-matter-list {
+.anti-matter {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 36px;
 }
 
-.anti-matter-list > div {
+.anti-matter > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
 
-.anti-matter-list > div > p {
+.anti-matter > div > p {
     font-size: 34px;
     color: #1F1E1E;
 }
 
-.anti-matter-list > button {
+.anti-matter > button {
     width: 203px;
     height: 59px;
     background-color: #1F1E1E;
@@ -282,11 +282,11 @@ body{
     cursor: pointer;
     transition: background 0.2s;
 }
-.anti-matter-list > button:hover {
+.anti-matter > button:hover {
     background: #333;
 }
 
-.sample-reality {
+.reality {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -294,7 +294,7 @@ body{
     gap: 13px;
 }
 
-.sticker-void {
+.void {
     display: flex;
     flex-direction: column;
     width: 873.6px;
@@ -305,13 +305,13 @@ body{
     gap: 45px;
 }
 
-.sticker-void > p {
+.void > p {
     text-align: center;
     font-size: 74px;
     color: #1F1E1E;
 }
 
-.sticker-void > button {
+.void > button {
     width: 238px;
     height: 59px;
     background-color: #1F1E1E;
@@ -321,11 +321,11 @@ body{
     cursor: pointer;
     transition: background 0.2s;
 }
-.sticker-void > button:hover {
+.void > button:hover {
     background: #333;
 }
 
-.gallery-multiverse {
+.multiverse {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -334,7 +334,7 @@ body{
     padding-bottom: 105px;
 }
 
-.image-singularity {
+.singularity {
     display: flex;
     flex-direction: column;
     gap: 13px;
@@ -346,7 +346,7 @@ body{
     gap: 13px;
 }
 
-.inspiration-core {
+.core {
     display: flex;
     flex-direction: column;
     width: 873.6px;
@@ -358,13 +358,13 @@ body{
     gap: 260px;
 }
 
-.galactic-heading {
+.galactic {
     font-size: 83px;
     color: #425E44;
     text-align: center;
 }
 
-.social-handle {
+.social {
     font-size: 32px;
     color: #425E44;
 }
